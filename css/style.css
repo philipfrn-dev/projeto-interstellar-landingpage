@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Prompt:wght@500&display=swap');
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+   
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(255, 255, 255, 0.24) 0px 1px 2px;
+    backdrop-filter: blur(2px);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 50px;
+
+}
+.menu img{
+    width: 75px;
+    height: 75px;
+    padding-left: 20px;
+    
+}
+
+.navegation ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navegation a{
+    color: rgba(250, 246, 239, 0.8);
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 35px;
+}
+
+.section-1{
+    text-align: center;
+    color: rgba(250, 246, 239, 0.8);
+    font-family: 'Prompt', sans-serif;
+    height: 75vh;
+    width: auto;
+    margin-top: 150px;
+    
+    
+}
+.section-1 h1{
+    font-size: 100px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    padding-top: 8%;
+    
+}
+.section-1 p{
+    font-size: 30px;
+    letter-spacing: 45px;
+    text-transform: uppercase; 
+}
+.section-movie{
+    
+    height: 166vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    
+}
+.button-watch{
+    margin-left: 45px;
+    max-height: 50%;
+    max-width: auto;
+    
+}
+.button-watch img{
+    width: 650px;
+    height: auto;
+}
+.button-watch p{
+    color: rgba(250, 246, 239, 0.8);
+    width: 50vw;
+    padding-left: 30px;
+    font-family: 'Prompt', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(255, 255, 255, 0.24) 0px 1px 2px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.button-watch button{
+    margin-top: 20px;
+    border: 0;
+    border-radius: .5rem;
+    box-sizing: border-box;
+    color: #111827;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    padding: .80rem 5rem;
+    text-align: center;
+    text-decoration: none #D1D5DB solid;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 375px;
+    
+    
+      
+      
+    }
+    
+.button-watch button:hover {
+    background-color: rgb(255, 235, 213);
+    }
+    
+.button-watch button:focus {
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    }
+    
+.button-watch button:focus-visible {
+    box-shadow: none;
+    }
+
+
+
+
+.section-about{
+    background-color: #000000;
+    color: rgba(250, 246, 239, 0.8);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    
+    }
+.section-about h2{
+    font-family: 'Prompt', sans-serif;
+    color:#ffebd6;
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    padding: 80px 0px 80px 30px;
+}
+    
+
+.sections-img{
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    gap: 90px;
+    max-width: 380px;
+    height: auto;
+    
+    
+    
+}
+
+
+.text-img-1{
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(219, 216, 216, 0.24) 0px 1px 2px;
+    border-radius: 25px;
+    max-width: 400px;
+    
+
+}
+.text-img-1 p{
+    padding: 10px;
+    text-align: center;
+}
+.text-img-1 img{
+    width: 400px;
+    height: 480px;
+}
+.section-cast{
+    width: 100vw;
+    margin: auto;
+    padding-bottom: 40px;
+    background-color: #000000;
+    color: rgba(250, 246, 239, 0.8);
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+.section-cast h2{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(255, 235, 213);
+    text-transform: uppercase;
+    letter-spacing: 40px;
+    padding: 80px 0px 80px 30px;
+}
+
+.section-actor{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    
+}
+.actor-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(255 255 255 / 12%) 0px 1px 3px, rgb(219 216 216 / 24%) 0px 1px 2px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding: 5px
+}
+
+.actor-card img{
+    width: 220px;
+    height: 290px;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}   
+
+.section-music{
+    
+    padding-bottom: 40px;
+    color: rgb(255, 235, 213);
+    font-family: 'Prompt', sans-serif;
+    text-transform: uppercase;
+    
+}
+.section-music h2{
+    font-family: 'Prompt', sans-serif;
+    color: rgb(255, 235, 213);
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding: 80px 0px 80px 30px;
+}
+.album{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgb(255 255 255 / 12%) 0px 1px 3px, rgb(219 216 216 / 24%) 0px 1px 2px;
+    border-radius: 30px;
+    padding: 20px;
+    width: 90vw;
+    margin: auto;
+}
+.album img{
+    width: 500px;
+    height: 510px;
+}
+
+
+
+
+
+@media screen and (max-width: 680px) {
+    body{
+    background-image: url(/img/Frame\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 30px;
+    margin: auto;
+    max-height: 90vh;
+    border-radius: 10px;
+    
+}
+.menu img{
+    width: 40px;
+    height: 40px;
+    
+}
+.navegation{
+    padding: 30px 20px 0 20px;
+    
+}
+
+.navegation a {
+    font-size: 10px;
+  
+}
+.section-1{
+    margin-top: 30px;
+}
+.section-1 h1, p{
+    letter-spacing: 15px;
+    font-size: 20px;
+
+}
+.section-1 p{
+    font-size: 20px;
+    letter-spacing: 10px
+
+}
+.section-movie{
+    width: 250px;
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button-watch{
+    margin-bottom: 1030px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button-watch img{
+    display: none;
+}
+.button-watch p{
+    font-size: 10px;
+    letter-spacing: normal;
+    padding: 10px;
+    margin: 0;
+}
+.button-watch button{
+    padding: 8px;
+    width: 200px;
+    font-size: 10px;
+    
+   
+    
+
+    }
+
+    
+}
+
+
+
+
+
+
+
